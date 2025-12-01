@@ -1,0 +1,11 @@
+{"timestamp":"2025-11-28T00:54:23.948328Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-28T00:54:23.949809Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/refined/transform_sales.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-28T00:54:24.083208Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-28T00:54:24.084309Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-28T00:54:24.085242Z","level":"info","event":"Current task name:transform_sales_data","logger":"task.stdout"}
+{"timestamp":"2025-11-28T00:54:24.085924Z","level":"info","event":"Dag name:transform_raw_to_refined","logger":"task.stdout"}
+{"timestamp":"2025-11-28T00:54:24.349455Z","level":"info","event":"Refined layer tables updated successfully with UPSERT for fact table.","logger":"root","filename":"transform_sales.py","lineno":105}
+{"timestamp":"2025-11-28T00:54:24.351090Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-28T00:54:24.384196Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-28T00:54:24.385017Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-28T00:54:24.389988Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_sales_data>","logger":"task.stdout"}

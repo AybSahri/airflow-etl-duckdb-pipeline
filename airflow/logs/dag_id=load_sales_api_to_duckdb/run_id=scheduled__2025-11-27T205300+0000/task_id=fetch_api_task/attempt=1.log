@@ -1,0 +1,14 @@
+{"timestamp":"2025-11-27T20:53:03.247711Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-27T20:53:03.253535Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/raw/sales.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-27T20:53:03.525127Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/raw/sales.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2025-11-27T20:53:03.650215Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-27T20:53:03.651199Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-27T20:53:03.662952Z","level":"info","event":"Current task name:fetch_api_task","logger":"task.stdout"}
+{"timestamp":"2025-11-27T20:53:03.663799Z","level":"info","event":"Dag name:load_sales_api_to_duckdb","logger":"task.stdout"}
+{"timestamp":"2025-11-27T20:53:03.660405Z","level":"info","event":"Fetching CSV from URL: https://my.api.mockaroo.com/sales","logger":"root","filename":"sales.py","lineno":32}
+{"timestamp":"2025-11-27T20:53:05.279366Z","level":"info","event":"Response code: 200","logger":"root","filename":"sales.py","lineno":34}
+{"timestamp":"2025-11-27T20:53:05.279820Z","level":"info","event":"Fetched CSV from API successfully","logger":"root","filename":"sales.py","lineno":39}
+{"timestamp":"2025-11-27T20:53:05.359742Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-27T20:53:05.446160Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-27T20:53:05.447074Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-27T20:53:05.447860Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_api_task>","logger":"task.stdout"}

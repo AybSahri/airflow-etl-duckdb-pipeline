@@ -1,0 +1,12 @@
+{"timestamp":"2025-11-27T21:06:05.557021Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-27T21:06:05.558669Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/raw/sales.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-27T21:06:05.699095Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/raw/sales.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2025-11-27T21:06:05.745815Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-27T21:06:05.746618Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-27T21:06:05.747574Z","level":"info","event":"Current task name:load_duckdb_task","logger":"task.stdout"}
+{"timestamp":"2025-11-27T21:06:05.748267Z","level":"info","event":"Dag name:load_sales_api_to_duckdb","logger":"task.stdout"}
+{"timestamp":"2025-11-27T21:06:06.069471Z","level":"info","event":"Inserted data into raw_layer.sales successfully","logger":"root","filename":"sales.py","lineno":66}
+{"timestamp":"2025-11-27T21:06:06.071067Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-27T21:06:06.110215Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-27T21:06:06.111164Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-27T21:06:06.112151Z","level":"info","event":"Task operator:<Task(PythonOperator): load_duckdb_task>","logger":"task.stdout"}

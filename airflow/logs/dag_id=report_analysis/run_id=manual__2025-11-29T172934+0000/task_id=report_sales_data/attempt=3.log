@@ -1,0 +1,11 @@
+{"timestamp":"2025-11-29T17:55:58.715821Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-29T17:55:58.841636Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/report/report_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-29T17:55:59.624509Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-29T17:55:59.628361Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-29T17:55:59.632341Z","level":"info","event":"Current task name:report_sales_data","logger":"task.stdout"}
+{"timestamp":"2025-11-29T17:55:59.633243Z","level":"info","event":"Dag name:report_analysis","logger":"task.stdout"}
+{"timestamp":"2025-11-29T17:56:00.051751Z","level":"info","event":"Report layer tables updated successfully.","logger":"root","filename":"report_dag.py","lineno":76}
+{"timestamp":"2025-11-29T17:56:00.219705Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-29T17:56:00.356485Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-29T17:56:00.357870Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-29T17:56:00.358578Z","level":"info","event":"Task operator:<Task(PythonOperator): report_sales_data>","logger":"task.stdout"}

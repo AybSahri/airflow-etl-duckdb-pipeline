@@ -1,0 +1,40 @@
+2025-11-23 20:52:36,377 - INFO - Connected to DuckDB database: ecommerce_data.duckdb
+2025-11-23 20:52:36,385 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-23 20:52:36,388 - INFO - Table 'raw_layer.sales' created successfully
+2025-11-25 01:09:29,386 - INFO - Connected to DuckDB database: ecommerce_data.duckdb
+2025-11-25 01:09:29,415 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-25 01:09:29,420 - ERROR - Error initializing sales DB: Parser Error: syntax error at end of input
+2025-11-25 01:12:43,027 - INFO - Connected to DuckDB database: ecommerce_data.duckdb
+2025-11-25 01:12:43,029 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-25 01:12:43,029 - ERROR - Error initializing sales DB: Parser Error: syntax error at end of input
+2025-11-25 01:13:17,182 - INFO - Connected to DuckDB database: ecommerce_data.duckdb
+2025-11-25 01:13:17,183 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-25 01:13:17,184 - ERROR - Error initializing sales DB: Parser Error: syntax error at end of input
+2025-11-25 01:13:21,696 - INFO - Connected to DuckDB database: ecommerce_data.duckdb
+2025-11-25 01:13:21,698 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-25 01:13:21,698 - ERROR - Error initializing sales DB: Parser Error: syntax error at end of input
+2025-11-25 01:17:12,911 - INFO - Connected to DuckDB database: ecommerce_data.duckdb
+2025-11-25 01:17:12,918 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-25 01:17:12,926 - INFO - Created 'raw_layer.sales' created successfully
+2025-11-25 01:17:12,930 - INFO - Adding ingestion time fields to raw 'raw_layer.sales' created successfully
+2025-11-25 01:17:12,946 - INFO - The Database connection is closed
+2025-11-25 01:18:12,748 - INFO - Connected to DuckDB database: ecommerce_data.duckdb
+2025-11-25 01:18:12,750 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-25 01:18:12,751 - INFO - Created 'raw_layer.sales' created successfully
+2025-11-25 01:18:12,756 - ERROR - Error initializing sales DB: Catalog Error: Column with name ingestion_time already exists!
+2025-11-26 02:30:25,578 - INFO - Connected to DuckDB database: C:\Users\USER\Desktop\TESTINGROOM\DE-GPT\airflow\db\ecommerce_data.duckdb
+2025-11-26 02:30:25,598 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-26 02:30:25,609 - INFO - Created 'raw_layer.sales' table successfully
+2025-11-26 02:30:25,613 - INFO - Database connection closed
+2025-11-26 02:30:38,001 - INFO - Connected to DuckDB database: C:\Users\USER\Desktop\TESTINGROOM\DE-GPT\airflow\db\ecommerce_data.duckdb
+2025-11-26 02:30:38,002 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-26 02:30:38,003 - INFO - Created 'raw_layer.sales' table successfully
+2025-11-26 02:30:38,006 - INFO - Database connection closed
+2025-11-26 02:33:51,402 - INFO - Connected to DuckDB database: C:\Users\USER\Desktop\TESTINGROOM\DE-GPT\airflow\db\ecommerce_data.duckdb
+2025-11-26 02:33:51,407 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-26 02:33:51,412 - INFO - Created 'raw_layer.sales' table successfully
+2025-11-26 02:33:51,415 - INFO - Database connection closed
+2025-11-26 02:58:57,923 - INFO - Connected to DuckDB database: C:\Users\USER\Desktop\TESTINGROOM\DE-GPT\airflow\db\ecommerce_data.duckdb
+2025-11-26 02:58:57,938 - INFO - All schemas created: raw_layer, refined_layer, report_layer
+2025-11-26 02:58:57,947 - INFO - Created 'raw_layer.sales' table successfully
+2025-11-26 02:58:57,958 - INFO - Database connection closed
